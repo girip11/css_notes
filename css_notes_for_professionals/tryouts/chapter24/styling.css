@@ -1,0 +1,39 @@
+body {
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.container {
+  display: grid;
+  /* 4 columns */
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  /* column-gap: 10px;
+  row-gap: 10px; */
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  z-index: 2;
+  background-color: red;
+}
+
+.item2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  z-index: 3;
+  background-color: green;
+}
+
+/* div.container {
+  display: grid;
+} */
