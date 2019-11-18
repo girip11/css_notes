@@ -1,2 +1,3 @@
-# css_notes
+# CSS
+
 Notes on CSS3

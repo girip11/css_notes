@@ -1,0 +1,89 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+.large {
+  font-size: 20px;
+}
+
+p.border-color {
+  border: 1px solid red;
+}
+
+p.border-black {
+  border: 1px solid black;
+}
+
+p.border-blue {
+  border: 1px solid blue;
+}
+
+p[class*="Container"i] {
+  background-color: orange;
+}
+
+p > span {
+  font-weight: bold;
+  display: block;
+}
+
+.heading + q {
+  font-style: italic;
+}
+
+span ~ q {
+  font-weight: bolder;
+}
+
+div p:only-child {
+  background-color: brown;
+}
+
+button.round {
+  border-radius: 5px;
+  background-color: skyblue;
+  border-style: solid;
+  border-color: black;
+}
+
+div.outline {
+  box-sizing: border-box;
+  margin: 30px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 30px;
+}
+
+p.fixed-height {
+  height: 100px;
+  overflow: hidden;
+}
+
+div[id*="div"] {
+  width: 200px;
+  height: 200px;
+  border: 1px dashed #bbb;
+  outline: 1px dashed #bbb;
+  outline-offset: 1px;
+}
+
+#div1 {
+  overflow-x: auto;
+  overflow-wrap: normal;
+}
+
+#div2 {
+  overflow-x: auto;
+  overflow-wrap: break-word;
+  height: 100px;
+}
+
+img {
+  float: left;
+  margin-right: 20px;
+}
+
+#div3 {
+  overflow: hidden;
+}

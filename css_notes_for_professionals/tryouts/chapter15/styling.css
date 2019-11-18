@@ -1,0 +1,40 @@
+body {
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+}
+
+div {
+  /* width: 300px; */
+  border: 2px solid red;
+}
+
+p {
+  text-indent: 20px;
+  /* letter-spacing: -4px; */
+  /* text-shadow: 3px 3px 10px black,
+    3px 3px 10px red; */
+  /* overflow: hidden;
+  white-space: nowrap;
+  text-overflow: "[..]"; */
+  border: 2px solid black;
+  padding: 2px;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: normal;
+  /* direction: rtl; */
+  text-align: start;
+  /* text-decoration: line-through; */
+  font-family: serif;
+  /* font-variant: small-caps; */
+  /* font-stretch: 200%; */
+}
+
+.decorate {
+  text-decoration: dotted underline blue;
+}
+
+.space {
+  word-spacing: -15px;
+  font-weight: bold;
+}

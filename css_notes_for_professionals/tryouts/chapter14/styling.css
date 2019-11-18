@@ -1,0 +1,48 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+img {
+  float: left;
+  margin-right: 20px;
+}
+
+.cf::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+#div1 {
+  width: 50%;
+  float: left;
+  color: black;
+  background-color: blue;
+  text-align: left;
+}
+
+#div2 {
+  width: 50%;
+  float: right;
+  color: black;
+  background-color: green;
+  text-align: right;
+}
+
+.margin-top {
+  margin-top: 30px;
+  clear: both;
+}
+
+.sidebar {
+  /* `display:table;` shrink-wraps the column */
+  display: table;
+  float: left;
+  background-color: blue;
+}
+
+.content {
+  /* `overflow:hidden;` prevents `.content` from flowing under `.sidebar` */
+  overflow: auto;
+}

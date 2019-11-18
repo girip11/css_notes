@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+}
+
+div {
+  border: 1px solid black;
+}
+
+table {
+  margin: 10px;
+  /* width: 150px;
+  table-layout: fixed; */
+
+  border-collapse: separate;
+  border-spacing: 5px;
+
+  /* empty-cells: hide;
+  border-collapse: separate; */
+  /* border-collapse: collapse; */
+
+  caption-side: bottom;
+}
+
+table,
+th,
+td {
+  border: 1px solid green;
+}
